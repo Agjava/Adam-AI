@@ -1,6 +1,7 @@
 # Adam AI Frontend
 
 A modern Next.js application with a beautiful UI for interacting with the Adam AI assistant.
+Devpost link - https://devpost.com/software/adam-y0g7d2
 
 ## Features
 
