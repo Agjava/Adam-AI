@@ -4,6 +4,12 @@ A modern Next.js application with a beautiful UI for interacting with the Adam A
 
 Devpost link - https://devpost.com/software/adam-y0g7d2
 
+
+## Preview
+
+![chat_response](https://github.com/user-attachments/assets/4682e07b-0218-4c64-bf7b-79706273158e)
+![chat_interface](https://github.com/user-attachments/assets/ecb11f9c-1081-44d8-b3b9-d0f542d5a602)
+
 ## Features
 
 - 🎨 Modern and clean UI design
