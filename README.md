@@ -1,6 +1,6 @@
 # Adam AI - Your Personal AI Assistant
 
-This is a Next.js web application that serves as the frontend for "Adam AI," a personal AI assistant designed to enhance productivity through intelligent task management, smart automation, and context-aware assistance.
+This is a personal AI assistant designed to enhance productivity through intelligent task management, smart automation, and context-aware assistance.
 
 Devpost link - https://devpost.com/software/adam-y0g7d2
 
