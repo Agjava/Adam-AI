@@ -5,7 +5,7 @@ This is a Next.js web application that serves as the frontend for "Adam AI," a p
 Devpost link - https://devpost.com/software/adam-y0g7d2
 
 
-## Preview
+## AI Agent Preview
 
 ![chat_response](https://github.com/user-attachments/assets/4682e07b-0218-4c64-bf7b-79706273158e)
 
