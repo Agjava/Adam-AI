@@ -1,6 +1,6 @@
-# Adam 
+# Adam AI - Your Personal AI Assistant
 
-A modern Next.js application with a beautiful UI for interacting with the Adam AI assistant.
+This is a Next.js web application that serves as the frontend for "Adam AI," a personal AI assistant designed to enhance productivity through intelligent task management, smart automation, and context-aware assistance.
 
 Devpost link - https://devpost.com/software/adam-y0g7d2
 
@@ -9,81 +9,42 @@ Devpost link - https://devpost.com/software/adam-y0g7d2
 
 ![chat_response](https://github.com/user-attachments/assets/4682e07b-0218-4c64-bf7b-79706273158e)
 
-## Features
 
-- 🎨 Modern and clean UI design
-- 🔐 Google OAuth authentication
-- 💬 Real-time chat interface
-- 📱 Fully responsive design
-- 🎭 Beautiful animations and transitions
-- 🔍 Search functionality
-- 🤖 AI-powered assistance
-- 📄 Document and image handling
-- ⚡ Fast and optimized performance
 
-## Tech Stack
+## Key Features
 
-- Next.js 14
-- TypeScript
-- Tailwind CSS
-- Lucide Icons
-- Radix UI
-
-## Getting Started
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/adam-ai.git
-cd adam-ai/frontend
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Create a `.env.local` file:
-```bash
-cp .env.example .env.local
-```
-
-4. Update the environment variables in `.env.local`
-
-5. Start the development server:
-```bash
-npm run dev
-```
-
-6. Open [http://localhost:3000](http://localhost:3000) in your browser.
+- **Google Authentication**: Secure and easy login using Google accounts. The authentication flow is handled via a backend service, with the frontend managing tokens and user sessions.
+- **Interactive Chat Interface**: A real-time chat interface allows users to communicate with the AI assistant. Messages are sent to a backend API, and the conversation is displayed in a user-friendly format.
+- **Dashboard**: After logging in, users are directed to a dashboard that serves as the main hub for all features. It displays user information and provides access to various tools.
+- **Automations**: The application includes features for managing automations, such as:
+  - **Email Automation**: Schedule and automate email campaigns.
+  - **DocuSign Integration**: Automate document signing workflows.
+  - **Custom Workflows**: Create personalized automation workflows.
+- **Modern Tech Stack**: Built with Next.js, React, TypeScript, and Tailwind CSS, ensuring a fast, scalable, and maintainable codebase.
+- **Responsive Design**: The UI is designed to be responsive and visually appealing, with a focus on user experience.
 
 ## Project Structure
 
-```
-frontend/
-├── src/
-│   ├── app/              # App router pages
-│   ├── components/       # React components
-│   ├── lib/             # Utility functions
-│   └── utils/           # API utilities
-├── public/              # Static assets
-└── tailwind.config.ts   # Tailwind configuration
-```
+The project is organized into the following main directories:
 
-## Development
+- `src/app/`: Contains the main application pages, including the landing page, login, authentication callback, and dashboard.
+- `src/components/`: Reusable React components, such as the Google login button and UI elements.
+- `src/services/`: Houses the `AuthService`, which encapsulates all authentication-related logic.
+- `src/config/`: Configuration files, such as authentication settings.
+- `public/`: Static assets like images and icons.
 
-- Run development server: `npm run dev`
-- Build for production: `npm run build`
-- Start production server: `npm start`
-- Run linter: `npm run lint`
+## Getting Started
 
-## Contributing
+To run the application locally, follow these steps:
 
-1. Fork the repository
-2. Create your feature branch: `git checkout -b feature/amazing-feature`
-3. Commit your changes: `git commit -m 'Add amazing feature'`
-4. Push to the branch: `git push origin feature/amazing-feature`
-5. Open a pull request
+1. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-## License
+2. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+3. **Open your browser** to `http://localhost:3000` to see the application in action.
