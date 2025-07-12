@@ -1,4 +1,4 @@
-# Adam AI Frontend
+# Adam 
 
 A modern Next.js application with a beautiful UI for interacting with the Adam AI assistant.
 
